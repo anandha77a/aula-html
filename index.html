@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herói das Chamas</title>
+</head>
+<body>
+
+    <!-- 1. TELA INICIAL / RUA -->
+    <div id="rua">
+        <h1>👨‍🚒 Herói das Chamas</h1>
+        <p><strong>Objetivo:</strong> Você é um bravo bombeiro e sua missão é navegar pela casa em chamas até encontrar o cômodo que ainda tem uma pessoa para salvar!</p>
+        <hr>
+        <h2>🔥 Depressa! Você está na RUA, em frente à casa. O que você faz? 🔥</h2>
+        <ul>
+            <li><a href="#sala">Entrar pela porta da frente (Sala)</a></li>
+            <li><a href="#cozinha">Entrar pela janela da lateral (Cozinha)</a></li>
+        </ul>
+    </div>
+
+    <!-- 2. CÔMODO: SALA -->
+    <div id="sala" style="margin-top: 100vh;">
+        <h2>Localização Atual: SALA 🛋️</h2>
+        <p>A sala está cheia de fumaça. Para onde você vai?</p>
+        <ul>
+            <li><a href="#corredor">Ir para o Corredor</a></li>
+            <li><a href="#cozinha">Ir para a Cozinha</a></li>
+            <li><a href="#rua">Sair de volta para a Rua</a></li>
+        </ul>
+    </div>
+
+    <!-- 3. CÔMODO: COZINHA -->
+    <div id="cozinha" style="margin-top: 100vh;">
+        <h2>Localização Atual: COZINHA 🍳</h2>
+        <p>Muitas chamas perto do fogão!</p>
+        <ul>
+            <li><a href="#sala">Voltar para a Sala</a></li>
+            <li><a href="#quarto1">Entrar no Quarto 1</a></li>
+            <li><a href="#rua">Sair pela janela para a Rua</a></li>
+        </ul>
+    </div>
+
+    <!-- 4. CÔMODO: CORREDOR -->
+    <div id="corredor" style="margin-top: 100vh;">
+        <h2>Localização Atual: CORREDOR 🚪</h2>
+        <p>O corredor dá acesso às portas do fundo da casa.</p>
+        <ul>
+            <li><a href="#quarto1">Entrar no Quarto 1</a></li>
+            <li><a href="#quarto2">Entrar no Quarto 2</a></li>
+            <li><a href="#sala">Voltar para a Sala</a></li>
+        </ul>
+    </div>
+
+    <!-- 5. CÔMODO: QUARTO 1 -->
+    <div id="quarto1" style="margin-top: 100vh;">
+        <h2>Localização Atual: QUARTO 1 🪑</h2>
+        <p>O quarto está vazio, apenas móveis pegando fogo.</p>
+        <ul>
+            <li><a href="#corredor">Voltar para o Corredor</a></li>
+            <li><a href="#cozinha">Ir para a Cozinha</a></li>
+        </ul>
+    </div>
+
+    <!-- 6. CÔMODO DESTINO: QUARTO 2 (VITÓRIA) -->
+    <div id="quarto2" style="margin-top: 100vh;">
+        <h2>Localização Atual: QUARTO 2 🏆</h2>
+        <hr>
+        <h1>🎉 PARABÉNS! VOCÊ CONCLUIU O JOGO COM SUCESSO! 🎉</h1>
+        <p>Você encontrou a pessoa sã e salva no segundo quarto e a resgatou da casa em chamas! 👨‍🚒🧯</p>
+        <hr>
+        <p><a href="#rua">🔄 Jogar novamente</a></p>
+    </div>
+
+</body>
+</html>
